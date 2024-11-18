@@ -6,6 +6,7 @@ import NextAuthEdge from '@/libs/next-auth/edge';
 
 import { OAUTH_AUTHORIZED } from './const/auth';
 
+
 export const config = {
   matcher: [
     // include any files in the api or trpc folders that might have an extension
