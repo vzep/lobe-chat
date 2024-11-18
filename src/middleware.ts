@@ -2,7 +2,6 @@ import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import { NextResponse } from 'next/server';
 import { authEnv } from '@/config/auth';
 import NextAuthEdge from '@/libs/next-auth/edge';
-
 import { OAUTH_AUTHORIZED } from './const/auth';
 
 export const config = {
